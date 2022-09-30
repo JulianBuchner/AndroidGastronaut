@@ -16,19 +16,25 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            app:popupTheme="@style/Theme.Android.PopupOverlay" />
+            app:popupTheme="@style/Theme.Android.PopupOverlay">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right">
+
+                <Button
+                    android:id="@+id/nav_header_shoppingbasket"
+                    android:layout_width="64dp"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@android:drawable/ic_menu_camera"
+                    tools:ignore="SpeakableTextPresentCheck"
+                    android:onClick="sendMessage"/>
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
 
     </com.google.android.material.appbar.AppBarLayout>
 
     <include layout="@layout/content_main" />
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_marginEnd="@dimen/fab_margin"
-        android:layout_marginBottom="16dp"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
