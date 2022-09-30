@@ -1,16 +1,16 @@
-package at.gasronaut.android.ui.gallery;
+package at.gasronaut.android.ui.qrcodescan;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class GalleryViewModel extends ViewModel {
+public class QRCodeScanViewModel extends ViewModel {
 
     private final MutableLiveData<String> mText;
 
-    public GalleryViewModel() {
+    public QRCodeScanViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is gallery fragment");
+        mText.setValue("Login");
     }
 
     public LiveData<String> getText() {
