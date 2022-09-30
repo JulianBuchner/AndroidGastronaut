@@ -1,13 +1,18 @@
 <resources>
-    <string name="app_name">Android</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
-    <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name">Gastonaut</string>
+    <string name="navigation_drawer_open">Menü öffnen</string>
+    <string name="navigation_drawer_close">Menü schließen</string>
+    <string name="nav_header_title">Gastronaut</string>
+    <string name="nav_header_subtitle">office@gastronaut.events</string>
+    <string name="nav_header_desc">Menükopf</string>
+    <string name="action_settings">Einstellungen</string>
 
     <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_login">Login</string>
+    <string name="menu_cashTable">Tisch kassieren</string>
+    <string name="menu_storno">Storno</string>
+    <string name="menu_orderHistory">Bestellverlauf</string>
+    <string name="menu_printout">Testausdruck</string>
+    <string name="menu_qrcodescan">QR-Code Scanner</string>
+    <string name="menu_darkmode">Darkmode</string>
 </resources>

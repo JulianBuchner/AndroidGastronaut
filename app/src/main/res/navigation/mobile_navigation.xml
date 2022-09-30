@@ -12,14 +12,38 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="at.gasronaut.android.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_cashTable"
+        android:name="at.gasronaut.android.ui.cashtable.CashTableFragment"
+        android:label="@string/menu_cashTable"
+        tools:layout="@layout/fragment_cashtable" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="at.gasronaut.android.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_login"
+        android:name="at.gasronaut.android.ui.login.LoginFragment"
+        android:label="@string/menu_login"
+        tools:layout="@layout/fragment_login" />
+
+    <fragment
+        android:id="@+id/nav_orderHistory"
+        android:name="at.gasronaut.android.ui.orderhistory.OrderHistoryFragment"
+        android:label="@string/menu_orderHistory"
+        tools:layout="@layout/fragment_orderhistory" />
+
+    <fragment
+        android:id="@+id/nav_storno"
+        android:name="at.gasronaut.android.ui.storno.StornoFragment"
+        android:label="@string/menu_storno"
+        tools:layout="@layout/fragment_storno" />
+
+    <fragment
+        android:id="@+id/nav_qrcodescan"
+        android:name="at.gasronaut.android.ui.qrcodescan.QRCodeScanFragment"
+        android:label="@string/menu_qrcodescan"
+        tools:layout="@layout/fragment_qrcodescan" />
+
+    <fragment
+        android:id="@+id/nav_printout"
+        android:name="at.gasronaut.android.ui.printout.PrintoutFragment"
+        android:label="@string/menu_printout"
+        tools:layout="@layout/fragment_printout" />
 </navigation>
