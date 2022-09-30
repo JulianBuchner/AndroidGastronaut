@@ -16,7 +16,20 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import at.gasronaut.android.databinding.ActivityMainBinding;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AbstractActivity {
+    private static final String TAG = "GastronautMainActivity";
+
+    // boolean flag for showing / hiding the back button!
+    public boolean rootMenu = true;
+    private int selCategoryId = 0;
+
+    private static boolean firstRun = true;
+
+    private float yStart = 0;
+    private float yEnd = 0;
+    private float xStart = 0;
+    private float xEnd = 0;
+
 
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityMainBinding binding;
