@@ -7,43 +7,43 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="at.gastronaut.android.ui.home.HomeFragment"
+        android:name="at.gasronaut.android.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_cashTable"
-        android:name="at.gastronaut.android.ui.cashtable.CashTableFragment"
+        android:name="at.gasronaut.android.ui.cashtable.CashTableFragment"
         android:label="@string/menu_cashTable"
         tools:layout="@layout/fragment_cashtable" />
 
     <fragment
         android:id="@+id/nav_login"
-        android:name="at.gastronaut.android.ui.login.LoginFragment"
+        android:name="at.gasronaut.android.ui.login.LoginFragment"
         android:label="@string/menu_login"
         tools:layout="@layout/fragment_login" />
 
     <fragment
         android:id="@+id/nav_orderHistory"
-        android:name="at.gastronaut.android.ui.orderhistory.OrderHistoryFragment"
+        android:name="at.gasronaut.android.ui.orderhistory.OrderHistoryFragment"
         android:label="@string/menu_orderHistory"
         tools:layout="@layout/fragment_orderhistory" />
 
     <fragment
         android:id="@+id/nav_storno"
-        android:name="at.gastronaut.android.ui.storno.StornoFragment"
+        android:name="at.gasronaut.android.ui.storno.StornoFragment"
         android:label="@string/menu_storno"
         tools:layout="@layout/fragment_storno" />
 
     <fragment
         android:id="@+id/nav_qrcodescan"
-        android:name="at.gastronaut.android.ui.qrcodescan.QRCodeScanFragment"
+        android:name="at.gasronaut.android.ui.qrcodescan.QRCodeScanFragment"
         android:label="@string/menu_qrcodescan"
         tools:layout="@layout/fragment_qrcodescan" />
 
     <fragment
         android:id="@+id/nav_printout"
-        android:name="at.gastronaut.android.ui.printout.PrintoutFragment"
+        android:name="at.gasronaut.android.ui.printout.PrintoutFragment"
         android:label="@string/menu_printout"
         tools:layout="@layout/fragment_printout" />
 </navigation>
