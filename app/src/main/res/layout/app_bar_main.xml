@@ -23,13 +23,27 @@
                 android:layout_height="wrap_content"
                 android:gravity="right">
 
+                <ImageButton
+                    android:id="@+id/settingsButton3"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="8"
+                    android:layout_column="1"
+                    android:layout_below="@+id/frameLayout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="false"
+                    android:onClick="click"
+                    android:src="@android:drawable/ic_menu_preferences" />
+
                 <Button
                     android:id="@+id/nav_header_shoppingbasket"
                     android:layout_width="64dp"
                     android:layout_height="wrap_content"
                     android:drawableEnd="@android:drawable/ic_menu_camera"
-                    tools:ignore="SpeakableTextPresentCheck"
-                    android:onClick="currentOrder"/>
+                    android:onClick="orderButtonClick"
+                    tools:ignore="SpeakableTextPresentCheck" />
             </LinearLayout>
         </androidx.appcompat.widget.Toolbar>
 
