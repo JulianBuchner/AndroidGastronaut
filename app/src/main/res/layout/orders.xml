@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="&lt;&lt;"
+                    android:id="@+id/backButton"
+                    android:layout_gravity="left|center_vertical"
+                    android:nestedScrollingEnabled="true"
+                    android:onClick="ButtonClick"
+                    android:focusable="false"
+                    android:src="@android:drawable/ic_media_rew" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bestellverlauf"
+                    android:id="@+id/lastorderButton"
+                    android:layout_gravity="center"
+                    android:nestedScrollingEnabled="false"
+                    android:onClick="ButtonClick" />
+
+                <ImageButton
+                    android:layout_width="57dp"
+                    android:layout_height="57dp"
+
+                    android:scaleType="centerInside"
+                    android:id="@+id/sendOrderButton"
+                    android:layout_below="@+id/frameLayout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="right|center_vertical"
+                    android:src="@drawable/send_order"
+                    android:onClick="sendOrderButtonClick" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <ScrollView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/scrollView3"
+                    android:layout_gravity="center_horizontal|top">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TableLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:id="@+id/OrdersTableLayout"
+                            android:layout_marginTop="30dp"
+                            android:paddingBottom="100px">
+
+                        </TableLayout>
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="zusätzliche Infos..."
+                            android:id="@+id/additionalInfobutton"
+                            android:layout_gravity="center"
+                            android:onClick="additionalInfoButtonClick" />
+
+                    </LinearLayout>
+                </ScrollView>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

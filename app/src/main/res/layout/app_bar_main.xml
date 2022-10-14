@@ -29,7 +29,7 @@
                     android:layout_height="wrap_content"
                     android:drawableEnd="@android:drawable/ic_menu_camera"
                     tools:ignore="SpeakableTextPresentCheck"
-                    android:onClick="sendMessage"/>
+                    android:onClick="currentOrder"/>
             </LinearLayout>
         </androidx.appcompat.widget.Toolbar>
 
