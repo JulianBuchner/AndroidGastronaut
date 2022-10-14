@@ -24,6 +24,18 @@
                 android:gravity="right">
 
                 <ImageButton
+                    android:id="@+id/backButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_weight="1"
+                    android:focusable="false"
+                    android:nestedScrollingEnabled="true"
+                    android:onClick="backBtnClick"
+                    android:src="@android:drawable/ic_media_rew"
+                    android:text="&lt;&lt;" />
+
+                <ImageButton
                     android:id="@+id/settingsButton3"
                     android:layout_width="50dp"
                     android:layout_height="wrap_content"
