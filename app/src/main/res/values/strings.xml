@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Gastonaut</string>
+    <string name="app_name">Gastronaut</string>
     <string name="navigation_drawer_open">Menü öffnen</string>
     <string name="navigation_drawer_close">Menü schließen</string>
     <string name="nav_header_title">Gastronaut</string>
